@@ -3,25 +3,31 @@
 }
 
 html, body {
-    height: 50%;
+    /* height: 50%; */
 }
-
-html {
-    display: table;
-    margin: auto;
-}
+ html {
+    /* display: table; */
+     margin: auto;
+} 
 
 body {
-    display: block;
+    /* display: block;
     margin-left: 100px;
     position: relative;
     align-content: center;
-    zoom: 4;
+    zoom: 4; */
+  
+      background: linear-gradient(33deg, #24c461 20%, #12c6bd 90% 80%);
+       height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    
 }
 
 .Image {
     margin-bottom: 10px;
-    width: 25px;
+    width: 250px;
     height: 25%;
 }
 
